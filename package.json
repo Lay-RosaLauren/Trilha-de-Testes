@@ -1,0 +1,16 @@
+{
+  "name": "serverest-automacao",
+  "version": "0.0.1",
+  "description": "Testes funcionais utilizando o serverest + cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run"
+  },
+  "author": "Lay-RosaLauren",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.0",
+    "faker": "^5.5.3"
+  }
+}
